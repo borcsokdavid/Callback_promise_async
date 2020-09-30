@@ -20,7 +20,8 @@ function removeFirstElement(){
 }
 
 function modifyThirdElement(){
-    posts[2].title.replace('Three', 'Four');
+    //posts[2].title.replace('Three', 'Four');
+    posts[2].title = post[2].title.replace('Three','Four');
 }
 
 
